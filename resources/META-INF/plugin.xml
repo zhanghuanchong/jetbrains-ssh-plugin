@@ -29,6 +29,9 @@
 
   <actions>
     <!-- Add your actions here -->
+    <action id="SuperSSH.SuperSSH" class="SuperSSHAction" text="Open Super SSH" description="Open the Super SSH tool">
+      <add-to-group group-id="ToolsMenu" anchor="first"/>
+    </action>
   </actions>
 
 </idea-plugin>
