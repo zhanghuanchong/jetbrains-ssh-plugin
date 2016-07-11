@@ -1,17 +1,16 @@
 <idea-plugin version="2">
-  <id>com.your.company.unique.plugin.id</id>
-  <name>Plugin display name here</name>
+  <id>com.wuruihong.jetbrains.superssh</id>
+  <name>Super SSH</name>
   <version>1.0</version>
-  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+  <vendor email="support@wuruihong.com" url="http://www.wuruihong.com">DevWing</vendor>
 
   <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <em>most HTML tags may be used</em>
+      Super SSH tool for Jetbrains IDEs.
     ]]></description>
 
   <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
+      <h4>0.0.1</h4>
+      <strong>Create</strong> Project
     ]]>
   </change-notes>
 
