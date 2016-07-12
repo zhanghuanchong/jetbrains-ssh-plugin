@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainToolWindowFactory">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <toolbar id="a82b3" binding="mainToolbar">
+        <constraints border-constraint="West"/>
+        <properties>
+          <orientation value="1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="b2dc7" class="javax.swing.JButton" binding="btnAdd">
+            <constraints/>
+            <properties>
+              <icon value="general/add.png"/>
+              <text value=""/>
+              <toolTipText value="New connection"/>
+            </properties>
+          </component>
+          <component id="d2e6e" class="javax.swing.JButton" binding="btnClose" custom-create="true">
+            <constraints/>
+            <properties>
+              <icon value="actions/delete.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="ad757" class="javax.swing.JButton" binding="btnHelp">
+            <constraints/>
+            <properties>
+              <icon value="actions/help.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+      <tabbedpane id="42165" binding="tabbedPane">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="9eb6d" binding="defaultPane" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <tabbedpane title="Default" icon="SuperSSH/icon.png"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children/>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>

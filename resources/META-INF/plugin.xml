@@ -24,14 +24,15 @@
   -->
 
   <extensions defaultExtensionNs="com.intellij">
-    <!-- Add your extensions here -->
+    <toolWindow id="Super SSH" icon="/SuperSSH/icon.png" anchor="bottom" factoryClass="MainToolWindowFactory"/>
   </extensions>
 
   <actions>
     <!-- Add your actions here -->
-    <action id="SuperSSH.SuperSSH" class="SuperSSHAction" text="Open Super SSH" description="Open the Super SSH tool">
+    <action id="SuperSSH.menu" icon="/SuperSSH/icon.png" class="SuperSSHAction" text="Open Super SSH" description="Open the Super SSH tool">
       <add-to-group group-id="ToolsMenu" anchor="first"/>
     </action>
   </actions>
 
+  <depends>com.intellij.modules.platform</depends>
 </idea-plugin>
