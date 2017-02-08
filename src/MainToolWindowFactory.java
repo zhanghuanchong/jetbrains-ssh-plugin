@@ -18,8 +18,6 @@ public class MainToolWindowFactory implements ToolWindowFactory {
     private ToolWindow toolWindow;
     private JPanel mainPanel;
     private JToolBar mainToolbar;
-    private JButton btnAdd;
-    private JButton btnClose;
     private JButton btnHelp;
     private JTabbedPane tabbedPane;
     private JPanel defaultPane;

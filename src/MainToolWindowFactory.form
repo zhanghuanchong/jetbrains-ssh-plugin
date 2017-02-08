@@ -14,21 +14,6 @@
         </properties>
         <border type="none"/>
         <children>
-          <component id="b2dc7" class="javax.swing.JButton" binding="btnAdd">
-            <constraints/>
-            <properties>
-              <icon value="general/add.png"/>
-              <text value=""/>
-              <toolTipText value="New connection"/>
-            </properties>
-          </component>
-          <component id="d2e6e" class="javax.swing.JButton" binding="btnClose" custom-create="true">
-            <constraints/>
-            <properties>
-              <icon value="actions/delete.png"/>
-              <text value=""/>
-            </properties>
-          </component>
           <component id="ad757" class="javax.swing.JButton" binding="btnHelp">
             <constraints/>
             <properties>
